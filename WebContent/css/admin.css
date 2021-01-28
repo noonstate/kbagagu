@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+nav {
+	width: 250px;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: rgb(50, 50, 80);
+}
+
+nav>a {
+	display: block;
+	width: 250px;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: graytext;
+}
+
+nav>a:first-child {
+	margin-top: 30px;
+	color: white;
+}
+
+nav>a:last-child {
+	position: absolute;
+	bottom: 50px;
+}
+
+nav>a:hover {
+	background-color: rgb(90, 90, 110);
+	color: white;
+}
+
+section {
+	position: absolute;
+	left: 350px;
+	margin: 50px;
+}
+
+section>article{
+	border: 1px solid black;
+	padding: 20px;
+	margin: 50px;
+}
+
+table{
+	text-align: center;
+}

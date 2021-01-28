@@ -1,0 +1,15 @@
+<?xml version ="1.0" encoding = "UTF-8"?>
+
+<Context>
+	<Resource
+		name = "jdbc/mariaDB"
+		auth = "Container"
+		driverClassName = "org.mariadb.jdbc.Driver"
+		type = "javax.sql.DataSource"
+		factory = "org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+		url = "jdbc:mariadb://kbgagu.shop:3306/kbgagu?serverTimezone=UTC"
+		username ="kbgagu"
+		password= "1111"
+		maxActive = "50"
+	/>
+</Context>

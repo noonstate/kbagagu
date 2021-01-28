@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/* 초기화 코드 */
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	overflow-x:hidden;
+}
+
+ul{
+	list-style: none;
+}
+
+/* 네비바 스타일 */
+#mainNav{
+	z-index: 1;
+	margin:0;
+	padding:0;
+	border :0;
+	width: 100%; 
+	position: fixed;
+	text-align: center;
+	background-color: rgba(0,0,0,0.8);
+}
+
+#mainNav>a{
+	text-decoration: none;
+	font-size: large;
+	color: white;
+	vertical-align:middle;
+	margin: 0 auto;
+}
+
+
+#mainNav a:nth-child(3){
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+#mainNav a:hover{
+	color: orange;
+}
+
+#mainNav a>img {
+	width: 60px;
+}
+
+#mainNav+div{
+	height: 100px;
+}
+
+/* index의 header css */
+
+#headercontainer{
+	position: relative;
+	top: -200px;
+	overflow:hidden;
+	width: 100vw;
+}
+
+#headercontainer > ul{
+	position: relative;
+	top: 400px;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+
+header{
+	z-index: 0;
+	right: 0vw;
+}
+
+header>img{
+	width: 100vw;
+	display:inline-block; 
+}
+
+#slider{
+	position:relative;
+}
+
+
+/* index의 article css */
+
+#maincontainer{
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.itemlist{
+	margin-bottom: 50px;
+}
+
+.itemlist ul{
+	list-style: none;
+	position: relative;
+}
+.itemlist ul a{
+	text-decoration: none;
+	color: black;
+}
+
+.itemlist ul a li{
+	display:inline-block;
+	margin-right:40px;
+	text-align: left;
+	
+}
+
+.itemlist ul a li img{
+	width: 400px;
+	height: 400px;
+}
+
+.itemlist ul a li p{
+	margin-top:10px;
+	margin-bottom: 0px;
+}
+
+
+/* 푸터 스타일 */
+footer{
+	background-color: rgb(20,20,30);
+	height: 200px;
+}
+
+#footercontainer{
+	width: 1000px;
+	margin: 0 auto;
+	color: white;
+}
+
+#footercontainer div{
+	display: inline-block;
+	margin: 20px;
+	vertical-align: top;
+}
+
+section{
+	min-height: 100vh;
+}
+
+/* 공지페이지 스타일 */
+#noticeContainer{
+	width:800px;
+	margin :0 auto;
+	text-align: center;
+}
+
+/* 회원가입 폼 스타일 */
+
+#joinForm{
+	width:400px;
+	margin :0 auto;
+	text-align: left;
+}
+
+#joinForm input{
+	width: 400px;
+}
+#joinForm button{
+	width: 400px;
+	margin-bottom: 20px;
+}
+#joinForm h5{
+	font-weight: bolder;
+	text-align: center;
+}
+#joinForm p{
+	font-weight: bold;
+}
+
+
+/* 로그인폼 스타일 */
+#loginForm{
+	width:400px;
+	margin :0 auto;
+	text-align: left;
+}
+#loginForm input,#loginForm button{
+	width: 400px;
+}
+
+#loginForm h5{
+	font-weight: bolder;
+	text-align: center;
+}
+
+#loginForm a:hover {
+	cursor: pointer;
+	color: blue;
+}
+
